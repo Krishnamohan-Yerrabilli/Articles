@@ -140,7 +140,7 @@ the operation.
 #### Api-Backends
 
 Any function can be turned into an HTTP endpoint, that is ready to serve to the clients,
-These actions are known as web actions when it is enabled on the web, 
+These actions are known as web actions when it is enabled on the web
 
 If this all goes correctly Integrating the function into a Full-fledged API becomes easy.
 
