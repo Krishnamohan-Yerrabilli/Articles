@@ -1,7 +1,7 @@
 ## What Serverless is all about?
 
 😃 First of all thanks for checking out this article, By reading this article I'm pretty sure 
-you will get a good understanding of What Serverless is all about, enough talk, Let's go 🚀 
+you will get a good understanding on What Serverless is all about, enough talk, Let's go 🚀 
  
 ### What is Serverless?
 
