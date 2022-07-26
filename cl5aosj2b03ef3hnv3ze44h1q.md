@@ -36,7 +36,7 @@ Availability zones have a count of a minimum of 3 in a region and a maximum of 6
 
 #### Elastic Compute Cloud 
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1657177349337/mQTkvGliq.png align="left")
+![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1657177349337/mQTkvGliq.png align="center")
 
 
 These are also called EC2 Instances which are one of the main blocks of AWS, these are 
