@@ -127,7 +127,7 @@ it happens in many cases in that case it considers a break(fall) of an instance,
 the request is forward to a healthy
 instance
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1657171413598/Cjqdc5oyC.png align="left")
+![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1657171413598/Cjqdc5oyC.png align="center")
 
 ### Key Benefits
 
