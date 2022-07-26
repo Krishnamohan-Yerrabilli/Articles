@@ -158,7 +158,7 @@ Cloudfront, DB etc, etc..,
 
 ### How It works?
 
-![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1657167460210/4BA4Vq-ta.png align="left")
+![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1657167460210/4BA4Vq-ta.png align="center")
 
 To perform the job, obviously, it wants to go through a series of steps, this happens when
  a user request access to a web server through Route 53
