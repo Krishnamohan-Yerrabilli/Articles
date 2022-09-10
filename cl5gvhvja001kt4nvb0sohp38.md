@@ -1,7 +1,7 @@
 ## What Serverless is all about?
 
 😃 First of all thanks for checking out this article, By reading this article I'm pretty sure 
-you will get a good understanding on What Serverless is all about, enough talk, Let's go 🚀 
+you will get a good understanding of What Serverless is all about, enough talk, Let's go 🚀 
  
 ### What is Serverless?
 
@@ -23,8 +23,7 @@ your application only responds when the user requests any information regarding 
 the site it's based on event-driven architecture.
 
 You have more control over logic, this is executed on-demand when no one uses your app
-guess what you will be not charged you only pay when you got a request and the process 
-CPU time of your request. 
+guess what, you will not be charged, you only pay when you got a request and the CPU processing time of your request. 
 
 These requests are handled by the cloud providers using a service called API gateway.
 
@@ -40,7 +39,7 @@ program interface), and SDKs(Software development Kits).
 
 #### Containers
 
-Containers are the instance of an image, containers are handled by shim, and containers are also called lightweight VM's
+Containers are the instance of an image, containers are handled by shim, and containers are also called lightweight VMs
 
 containers provide a high level of security because it does not talk to the host operating system and a container does not know what happens outside of the container 
 
@@ -72,7 +71,7 @@ Microservices architecture is where the whole application is divided into smalle
 components
 
 Individual components can work on their own without depending on
-other components of the applications 
+other parts of the applications 
 
 By adopting this architecture, organizations can scale their applications easily, where
 a single application is deployed to perform a specific task
@@ -83,7 +82,7 @@ a single application is deployed to perform a specific task
 
 It is purely evolved by the cloud, here serverless utilizes FaaS and BaaS instead of Iaas or Paas,
 here application is deployed when it is requested along with specified resources, this FaaS is 
-achieved by the user request.
+achieved by the user's request.
 
 Here you don't have to manage the servers and the underlying resources used by them, you only
 pay for the compute time and request count.
@@ -148,7 +147,7 @@ If this all goes correctly Integrating the function into a Full-fledged API beco
 
 You can easily launch extremely fast process streaming apps, you can create 
 Pipelines with FaaS, and a database for Apache Kafka, and not only that we can
-also, initiate and use for IoT sensors fast transfers.
+also, initiate and use IoT sensors fast transfers.
 
 #### Data-processing
 
@@ -166,7 +165,7 @@ config for new app versions, so developers can easily deploy the product in a bi
 seconds
 
 With this type of serverless advantage, we can say it is also environment friendly,
-green-computing, reduced costs, on-demand purpose, and the list goes on.
+green-computing, reduced costs, on-demand purposes, and the list goes on.
 
 #### Scalability
 
@@ -177,7 +176,7 @@ people often say "Elastic".
 Developers are not config auto-scaling for their application after they don't 
 need to tune with policies, and for juniors devs 
 
-It's quite easy to just deploy the application code and no need for expertise, 
+It's quite easy just to deploy the application code and no need for expertise, 
 just release the code, everything else is managed by the application provider.
 
 #### Cost-effective
@@ -193,7 +192,7 @@ you don't pay when they're idle.
 
 #### Productivity
 
-Developers don't need to handle server management, instead they can think
+Developers don't need to handle server management, instead, they can think
 about code and application improvement, Serverless simplifies the back-end 
 development
 
@@ -243,4 +242,4 @@ then the virtual machines, software containers, dedicated servers
 <p>
 
 
-Thank you for reading my blog. If you like my work feel free to connect me on <a target = "_blank" href= "https://www.linkedin.com/in/krishnamohanyerrabilli"> LinkedIn </a> or <a target = "_blank" href= "https://www.twitter.com/K_Mohan_">Twitter</a>, see you with another one guys.  😀 
+Thank you for reading my blog. If you like my work feel free to connect -> <a target = "_blank" href= "https://www.linkedin.com/in/krishnamohanyerrabilli"> LinkedIn </a> or <a target = "_blank" href= "https://www.twitter.com/K_Mohan_">Twitter</a>, see you with another one guys.  😀 
