@@ -193,7 +193,7 @@ you don't pay when they're idle.
 
 #### Productivity
 
-Developers don't need to handle server management, instead, they can think
+Developers don't need to handle server management, instead they can think
 about code and application improvement, Serverless simplifies the back-end 
 development
 
