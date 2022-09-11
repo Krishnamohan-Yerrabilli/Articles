@@ -6,7 +6,7 @@
 
 AWS Route 53 is simply a domain name service offered by Amazon web services, 
 Its job is to take the user's requested Domain name example: 'aws.amazon.com' and 
-convert into numerical IP address example: '10.72.171.77' and route to the allocated 
+convert into numerical IP address example: "10.72.171.77" and route to the allocated 
 host(EC2) via ELB.
 
 Amazon launched this service in 2010, it supports services that are tightly integrated
