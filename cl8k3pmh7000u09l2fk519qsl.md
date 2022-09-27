@@ -1,12 +1,13 @@
 ## Kubernetes - ReplicaSet
 
-In the journey of learning Kubernetes you come up to Replicasets, what does it 
+In the journey of learning **Kubernetes** you come up to **Replicasets**, what does it 
 mean, why we're using and  where we use it, I'm gonna clear all the doubts that 
 comes up you're beginner as a newbie, Let's see what is this all about, and what 
-is the role it plays in the world of Kubernetes
+is the role it plays in the world of **Kubernetes**
 
-![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/3iysuwnqb9a8b8wksdsa.gif)
-### What is a Replicaset?
+![Let's begin](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/3axweeif90n6rtn8vjcp.gif align="center")
+
+
 
 A Replicaset simply means, it replicates pods, like you can have an n number of pods,
  1 replica means it controls one pod, under the hood of a replica set the main important
