@@ -1,6 +1,6 @@
 ## Kubernetes - ReplicaSet
 
-In the journey of learning **Kubernetes** you come up to **Replicasets**, what does it 
+😃 In the journey of learning **Kubernetes** you come up to **Replicasets**, what does it 
 mean, why we're using and  where we use it, I'm gonna clear all the doubts that 
 comes up you're beginner as a newbie, Let's see what is this all about, and what 
 is the role it plays in the world of **Kubernetes**
