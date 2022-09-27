@@ -214,7 +214,9 @@ frontend   6         6         6       45s
 
 ```
 
-### How to delete replicaset?
+### Removing replicaset from the cluster
+
+#### How to delete replicaset?
 
 ```
 kubectl delete rs frontend
