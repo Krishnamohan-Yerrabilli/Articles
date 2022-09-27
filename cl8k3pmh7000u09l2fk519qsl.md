@@ -113,7 +113,7 @@ spec:
         image: gcr.io/google_samples/gb-frontend:v3
 ```
   
-#### The Anatomy of a ReplicaSet Manifest
+### The Anatomy of a ReplicaSet Manifest
 
 Let's understand what is going inside (step by step)
 
@@ -183,7 +183,7 @@ replicates or re-create pods if anyone one of them dies, but how replicaset is i
 
 > just by matching the `selector.tier tag to the template.tier tag`
 
-#### How to scale up/down?
+### How to scale up/down?
 
 There are 2 ways to scale up or scale down the pods, one is modifying the manifest 
 another is just by giving a command:
@@ -214,7 +214,7 @@ frontend   6         6         6       45s
 
 ```
 
-#### How to delete replicaset?
+### How to delete replicaset?
 
 ```
 kubectl delete rs frontend
