@@ -12,7 +12,7 @@ the world of **Kubernetes**
 A Replicaset simply means, it replicates pods, like you can have an n number of pods,
  1 replica means it controls one pod, under the hood of a replicaset there is a central 
 important concept called labels, let's see in detail what it is all about and explore 
-what exactly replicates means, use cases, and many more...
+what exactly replicaset means, use cases, and many more...
 
 ### which problem it solves?
 
