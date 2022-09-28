@@ -1,22 +1,22 @@
 ## Kubernetes - ReplicaSet
 
 😃 In the journey of learning **Kubernetes** you come up to **Replicasets**, what does it 
-mean, why we're using and  where we use it, I'm gonna clear all the doubts that 
-comes up you're beginner as a newbie, Let's see what is this all about, and what 
-is the role it plays in the world of **Kubernetes**
+mean, why we're using and  where we use it, I'll try to clear some of the doubts that 
+comes up to you as a newbie, Let's see what it is all about, and what is the role it plays in
+the world of **Kubernetes**
 
 ![Let's begin](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/3axweeif90n6rtn8vjcp.gif align="center")
 
 
 
 A Replicaset simply means, it replicates pods, like you can have an n number of pods,
- 1 replica means it controls one pod, under the hood of a replica set the main important
- concept labels, let's see in detail what it is all about and explore what exactly replicates
- means, use-cases, and many more...
+ 1 replica means it controls one pod, under the hood of a replicaset there is a central 
+important concept called labels, let's see in detail what it is all about and explore 
+what exactly replicates means, use cases, and many more...
 
 ### which problem it solves?
 
-It automatically replicates and it's making sure a certain number of pods run all the 
+It automatically replicates and it makes sure a certain number of pods run all the 
 time as you mentioned in your manifest file.
 
 Before we dive in we want to understand some terms
@@ -175,7 +175,7 @@ taken as a reference by replicaset to check the pod == (template.metadata.labels
  are the pods it wants to checkout.
 
 ` template `: above we mentioned 4 replicas which means the same number of pods 
-are created by the replica set, when pods are created this is taken as reference by 
+are created by the replica set, when pods are made this is taken as reference by 
 the replica set to create new pods 
 
 > don't think replicaset means just creating replicas, that's not the main view, it 
@@ -230,4 +230,4 @@ kubectl delete rs frontend
 kubectl delete rs frontend --cascade=orphan
 ```
 
-I Hope you find this helpful for your journey, Thank you for reading my blog. If you like my work feel free to connect on <a target = "_blank" href= "https://www.linkedin.com/in/krishnamohanyerrabilli"> LinkedIn </a> or <a target = "_blank" href= "https://www.twitter.com/K_Mohan_">Twitter</a>, see you with another one guys.  😀 
+I hope you find this helpful for your journey, Thank you for reading my blog. If you like my work feel free to connect on <a target = "_blank" href= "https://www.linkedin.com/in/krishnamohanyerrabilli"> LinkedIn </a> or <a target = "_blank" href= "https://www.twitter.com/K_Mohan_">Twitter</a>, see you with another one guys.  😀 
