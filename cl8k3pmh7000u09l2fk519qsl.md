@@ -1,18 +1,16 @@
 ## Kubernetes - ReplicaSet
 
 😃 In the journey of learning **Kubernetes** you come up to **Replicasets**, what does it 
-mean, why we're using and  where we use it, I'll try to clear some of the doubts that 
-comes up to you as a newbie, Let's see what it is all about, and what's the role it plays in
+mean? why we're using it? and where do we use it? I'll try to clear some of the doubts that 
+come up to you as a newbie, Let's see what it is all about, and what's the role it plays in
 the world of **Kubernetes**
 
 ![Let's begin](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/3axweeif90n6rtn8vjcp.gif align="center")
 
-
-
 A Replicaset simply means, it replicates pods, like you can have an n number of pods,
- 1 replica means it controls one pod, under the hood of a replicaset there is a central 
+1 replica means it controls one pod, under the hood of a replicaset there is a central 
 important concept called labels, let's see in detail what it is all about and explore 
-what exactly replicaset means, use cases, and many more...
+what exactly replicaset means, and its use cases...
 
 ### which problem it solves?
 
