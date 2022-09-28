@@ -129,14 +129,14 @@ metadata:
 
 ```
 There are some resources you want to mention always in you're manifest file such 
-as `apiVersion`, `kind`, `metadata`, `spec`, so you can ask what is a resource
+as `apiVersion`, `kind`, `metadata`, `spec`
 
-`apiVersion`: this simply means which version of API version you're using to create 
+`apiVersion`: this simply means which API version you're using to create 
 the object
 
 `kind`: This just means, what kind of object you're creating, in this case, it is Replicaset, 
-plz note: what you're providing as an object because that is the desired state and that 
-is what you're workload gonna be
+plz note: what you're providing as an object, that is the desired state and that 
+is what you're workload is going to be
 
 `metadata`: this is a piece of additional information to identify you're workload, in this 
 case, your workload is a replica set
@@ -164,7 +164,7 @@ spec:
 
 ` spec `: refers to specs of replicaset
 
-` replicas `: how many pods want to be created by the replica set
+` replicas `: how many pods(Instances) want to be created by the replica set
  
 ` selector `: here selector is the thing, the replicaset takes it, and checks the same 
 label to identify what are the pods it wants to control.
@@ -182,7 +182,7 @@ the replica set to create new pods
 replicates or re-create pods if anyone one of them dies, but how replicaset is identifying
  its designated pods
 
-> just by matching the `selector.tier tag to the template.tier tag`
+> just by **matching the `selector.tier tag to the template.tier tag`**
 
 ### How to scale up/down?
 
