@@ -11,11 +11,11 @@ Today we're going to learn about the **Control Plane** which is the main part of
 
 ## Control plane
 ![controlplane diagram.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1664452073590/-B46yEG5c.png align="center")
-it's the brain of the cluster, it's a set of powerful components, Let's see what are those
+it's the brain of the cluster, it's a set of powerful components its include an API server, schedular, control manager, cluster store (ETCD)
+
+Let's see one by one 
 
 ### API server { }
-
-Include an API server, schedular, control manager, cluster store (ETCD)
 
 The API server is the grand central of Kubernetes 
 
