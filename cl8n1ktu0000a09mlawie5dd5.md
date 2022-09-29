@@ -6,7 +6,7 @@ Today we're going to learn about the **Control Plane** which is the main part of
 
 -	if your legacy application or software running for a long time maybe (running on hundreds of VMs) now there is a high chance that your containerized cloud-native microservices application runs on thousands of containers, with this in mind, say 👋 hello to Kubernetes 
 
-![controlplane diagram.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1664452073590/-B46yEG5c.png align="left")
+![controlplane diagram.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1664452073590/-B46yEG5c.png align="center")
 
 
 ## Control plane
