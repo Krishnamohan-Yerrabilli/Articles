@@ -2,7 +2,7 @@
 
 Today we're going to learn about the **Control Plane** which is the main part of the Kubernetes [Cluster](https://d33wubrfki0l68.cloudfront.net/2475489eaf20163ec0f54ddc1d92aa8d4c87c96b/e7c81/images/docs/components-of-kubernetes.svg)
 
-**KUBERNETES** - is vendor-agnostic and it can run on almost any cloud provider 
+**KUBERNETES** - is vendor-agnostic orchestration engine and it can run on almost any cloud provider 
 
 -	if your legacy application or software running for a long time maybe (running on hundreds of VMs) now there is a high chance that your containerized cloud-native microservices application runs on thousands of containers, with this in mind, say 👋 hello to Kubernetes 
 
