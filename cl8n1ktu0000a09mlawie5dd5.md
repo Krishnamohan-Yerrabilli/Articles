@@ -59,7 +59,7 @@ each subset of controllers runs a background watch loop consistently watching th
 
 if any node/pod/container breaks, [Kubernetes](https://kubernetes.io/) gets a red alert, and it immediately takes the required action, to match the desired state which is declared by the user in the manifest file.
 			
-### Schedular: 
+### Schedular
 
 It always watching API Server like (is there any work to be done?), its job is to find the right node
 
