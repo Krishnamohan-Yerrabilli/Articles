@@ -9,11 +9,11 @@ Today we're going to learn about the **Control Plane** which is the main part of
 ![controlplane diagram.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1664452073590/-B46yEG5c.png align="left")
 
 
-## Control plane: 
+## Control plane
 
 it's the brain of the cluster, it's a set of powerful components, Let's see what are those
 
-### API server: 
+### API server
 
 Include an API server, schedular, control manager, cluster store (ETCD)
 
@@ -37,7 +37,7 @@ The manifest file contains
 
 All API requests are subject to authentication and authorization checks, once its done, files will be persisted in the cluster store and then the work is scheduled to the cluster
 
-### Cluster store (ETCD):
+### Cluster store (ETCD)
 
 This is the only stateful part of the control plane if there is no cluster store (ETCD), there is no cluster 
 
@@ -49,7 +49,7 @@ The default Kubernetes installation, [ETCD](https://kubernetes.io/docs/concepts/
 		
 ETCD wants to handle data writes which are coming from multiple writes from the same value, and also originating from different sources to be handled, to accomplish this ETCD uses RAFT which is a consensus algorithm
 
-### Control manager:
+### Control manager
 
 Its a controller of controllers, basically it loads and executes all the independent controllers and monitors them 
 
