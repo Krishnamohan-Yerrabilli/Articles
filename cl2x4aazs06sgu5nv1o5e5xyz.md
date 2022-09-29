@@ -23,7 +23,7 @@ load balancing, secret, scheduling, scaling, fault-tolerance, deployment.
 ### Brief 
 
 Kubernetes architecture has the master node, which is also called as control plane nowadays, 
-which controls the nodes.these nodes are nothing but physical servers or VMs, which are run 
+which controls the nodes. these nodes are nothing but physical servers or VMs, which are run 
 inside a data center applications are run inside the node, these nodes are previously called 
 minions, In that, we have a lot of components such as type of service, cluster, pod. 
 
@@ -118,7 +118,7 @@ by Kube-proxy, based on these rules load balancing would be done.
 A pod is the smallest unit in the Kubernetes, like a container, is the smallest unit in the docker 
 such as a pod in the K8. A pod's job is to run the containers inside it, containers are wrapped 
 by a pod, and we interact and manage containers through the pod. there is an outline where we 
-want to run multiple containers in the same pod, like one container helping to another container. 
+want to run multiple containers in the same pod, like one container helping another container. 
 
 #### Containers 
 
@@ -135,8 +135,8 @@ this you can check out my blog on Docker.
 
 #### Play with K8s 
 
-If you want to start playing with k8's, or you want to test something in an Kubernetes 
-environment, to this you don't pay to any cloud provider, play with K8 is a playground 
+If you want to start playing with k8's, or you want to test something in a Kubernetes 
+environment, to this you don't pay any cloud provider, play with K8 is a playground 
 which allows users to run K8s clusters in a matter of seconds, for any review purposes also 
 you can use it, to get started you just need a docker or a GitHub account, for more information 
 you can refer to this [link](https://labs.play-with-k8s.com/).
@@ -151,8 +151,8 @@ work with limited resources, to note Minikube is not for production environment.
 
 #### Cloud Platforms 
 
-So many cloud providers can provide Kubernetes cluster by buying their resources, 
-each cloud provider has their own Kubernetes model, but under the hood all works 
+So many cloud providers can provide Kubernetes clusters by buying their resources, 
+each cloud provider has its own Kubernetes model but under the hood all works 
 on the same principle, like aws has EKS(Elastic Kubernetes Service), Microsoft azure has
  their own AKS (Azure Kubernetes Service), GCP has its GKE(google's Kubernetes 
 engine), and Digital ocean has its DOKS(Digital ocean Kubernetes service) and many
@@ -188,4 +188,4 @@ Intra-Pod Communication: Containers use a shared Local Host interface. All the c
 Thank you for reading my blog. Feel free to connect on <a target = "_blank" href= "https://www.linkedin.com/in/krishnamohanyerrabilli"> LinkedIn </a> or <a target = "_blank" href= "https://www.twitter.com/K_Mohan_">Twitter</a>. 
 
 
-Resources: https://youtu.be/KVBON1lA9N8 Thankyou Kunal Kushwaha 😊
+Resources: https://youtu.be/KVBON1lA9N8 Thank you Kunal Kushwaha 😊
