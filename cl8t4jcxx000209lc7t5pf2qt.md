@@ -1,5 +1,7 @@
 ## Kubernetes - Namespaces
 
+## Introduction
+
 It's crucial to understand that Kubernetes namespaces are not the same as Linux kernel namespaces. Kernel, Namespaces divide operating systems into virtual operating systems called containers. 
 
 Kubernetes Namespaces Divide Kubernetes clusters into virtual clusters, which you might call Namespaces.
