@@ -2,7 +2,9 @@
 
 ## Introduction
 
-🤔 It's crucial to understand that Kubernetes namespaces are not the same as Linux kernel namespaces. Kernel, Namespaces divide operating systems into virtual operating systems called containers.  
+🤔 It's crucial to understand that Kubernetes namespaces are not the same as Linux kernel namespaces. 
+
+Kernel, Namespaces divide operating systems into virtual operating systems called containers.  
 
 Kubernetes Namespaces Divide Kubernetes clusters into virtual clusters, which you might call Namespaces. 😌
 
@@ -10,29 +12,29 @@ Before we dive into Namespaces, First, let's understand some terms.
 
 ## Terminologies
 
-### Container
+### Container 📦
 
 A container is nothing but a ready-made software package 
 that contains everything needed to run an app from code to application system
 libraries, default values ​​for required settings, and any runtime it needs A container
 holds everything.
 
-###  Cluster
+###  Cluster ☂️
 
 Each container runs on a cluster. It consists of a 
 Control plane and computer machine nodes. 
 
-### The control plane
+### The control plane 🧠
 
 Takes care of the applications running on 
 the cluster and the resources they use, while the nodes are the 
 machines on which the clusters run.
 
-### Orchestration 
+### Orchestration 🎻🎺🎷
 
 Ever seen an orchestra? The orchestra conductor decides what 
-sound he wants, how many violins, how many trumpets, what octave
- and everything else. 
+sound he wants, how many violins, how many trumpets, what octave 
+and everything else. 
 
 Similarly, orchestration determines which container to use, 
 which resources to use, which application to run, etc.
@@ -46,9 +48,9 @@ It manages clusters, their deployment, scaling, etc.
 
 Now let's dig into “Kubernetes Namespaces”
 
-## Kubernetes Namespaces 'N'
+## Kubernetes Namespaces 'N' 👻
 
-What is Kubernetes Namespace?
+So What is Kubernetes Namespace?
 
 With the help of a Namespace, each cluster is divided into virtual sub-clusters.
 
@@ -71,7 +73,7 @@ a lot of resources
 This causes other applications to underperform. Organizations cannot 
 afford to deploy multiple physical servers.
 
-## Virtualization and Containers 
+## 🖧 Virtualization and Containers  📦
 
 
 ![vm image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1664821569769/HBV1pvqwa.png align="center")
@@ -98,10 +100,7 @@ They relax discrete features as they can be shared across multiple
 operating systems, have their own CPU space, memory, etc., 
 and are isolated from their respective infrastructure.
 
-How to share a cluster with Namespaces?
 
-A Namespace allows teams to share a Kubernetes cluster
-it allows you to create Virtual cluster's inside the existing [cluster](https://kubernetes.io/docs/concepts/architecture/)
 
 ## Types of Kubernetes Namespaces
 
@@ -204,6 +203,11 @@ kubectl apply-f newspace.yaml
 
 It is easy to create a new Namespace. Just remember to not add the prefix “kube’' before a Namespace.
 
+🤔 How to share a cluster with Namespaces? 
+
+A Namespace allows teams to share a Kubernetes cluster
+it allows you to create Virtual cluster's inside the existing [cluster](https://kubernetes.io/docs/concepts/architecture/)
+
 Although your current environment is not changed to your new namespace 
 it's time-consuming and also not efficient to type --namespace with kubectl command always
 
@@ -240,7 +244,7 @@ After entering this command, the Namespace will show a “Terminating” status 
 
 Now, you have an idea about how you can use Namespaces and how you can create, view, or delete Namespaces. 
 
-## Why Should You Use Kubernetes Namespaces?
+## Why Should You Use Kubernetes Namespaces? 🙂
 
 it's time to understand why Kubernetes Namespaces are crucial and what are their advantages:
 
@@ -252,7 +256,7 @@ With Namespaces, it is possible to carry out the development, testing, and produ
 
 A resource quota divides the number of resources that users and teams can use.
 
-## Using multiple Namespaces
+## Using multiple Namespaces 🧑‍💼
 
 In smaller organizations, where development, testing, and production teams work side by side, the default Namespace is sufficient. 
 
@@ -260,7 +264,7 @@ Development and testing do not require isolation and, therefore, can work with a
 
 But if the team is large or expanding day by day, multiple Namespaces will be required. 
 
-## Use-case of multiple Namespaces 
+## Use-case of multiple Namespaces 👨‍💼 
 
 Development and testing can be clustered as one team, and production can be isolated so that any changes made by development and testing do not affect production. 
 
