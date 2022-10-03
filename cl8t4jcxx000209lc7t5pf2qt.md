@@ -1,6 +1,6 @@
 ## Kubernetes - Namespaces
 
-## Introduction
+## Intro
 
 🤔 It's crucial to understand that Kubernetes namespaces are not the same as Linux kernel namespaces. 
 
