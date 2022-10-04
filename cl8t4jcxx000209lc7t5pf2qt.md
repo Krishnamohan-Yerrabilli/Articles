@@ -1,8 +1,6 @@
 ## Kubernetes - Namespaces
 
-## Intro
-
-🤔 It's crucial to understand that Kubernetes namespaces are not the same as Linux kernel namespaces. 
+It's crucial to understand that Kubernetes namespaces are not the same as Linux kernel namespaces. 
 
 Kernel, Namespaces divide operating systems into virtual operating systems called containers.  
 
@@ -12,25 +10,25 @@ Before we dive into Namespaces, First, let's understand some terms.
 
 ## Terminologies
 
-### Container 📦
+### Container 
 
 A container is nothing but a ready-made software package 
 that contains everything needed to run an app from code to application system
 libraries, default values ​​for required settings, and any runtime it needs A container
 holds everything.
 
-###  Cluster ☂️
+###  Cluster 
 
 Each container runs on a cluster. It consists of a 
 Control plane and computer machine nodes. 
 
-### The control plane 🧠
+### The control plane 
 
 Takes care of the applications running on 
 the cluster and the resources they use, while the nodes are the 
 machines on which the clusters run.
 
-### Orchestration 🎻🎺🎷
+### Orchestration 
 
 Ever seen an orchestra? The orchestra conductor decides what 
 sound he wants, how many violins, how many trumpets, what octave 
@@ -48,7 +46,7 @@ It manages clusters, their deployment, scaling, etc.
 
 Now let's dig into “Kubernetes Namespaces”
 
-## Kubernetes Namespaces 'N' 👻
+## Kubernetes Namespaces 'N' 
 
 So What is Kubernetes Namespace?
 
@@ -73,7 +71,7 @@ a lot of resources
 This causes other applications to underperform. Organizations cannot 
 afford to deploy multiple physical servers.
 
-## 🖧 Virtualization and Containers  📦
+## 🖧 Virtualization and Containers  
 
 
 ![vm image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1664821569769/HBV1pvqwa.png align="center")
