@@ -25,6 +25,7 @@ Selector:
    App: Web-app
    Version: v1.0.0
 ```
+
 And the deployment for Blue Web App:
 
 ```
@@ -38,6 +39,7 @@ Specification:
              App: Web-app
              Version: "v1.0.0"
 ```
+
 When we want to redirect traffic to the new (green) version of the app, 
 
 we update the deployment file to point to the new version v2.0.0.
@@ -52,6 +54,7 @@ Selector:
    App: Web-app
    Version: v2.0.0
 ```
+
 Expansion for Green App:
 
 ```
@@ -66,4 +69,4 @@ Specification:
              Version: "v2.0.0"
 ```
 
-Thank you for reading my blog. If you like my work feel free to connect me on -> <a target = "_blank" href= "https://www.linkedin.com/in/krishnamohanyerrabilli"> LinkedIn </a> or <a target = "_blank" href= "https://www.twitter.com/K_Mohan_">Twitter</a>, see you with another one guys.  
+Thank you for reading my blog. If you like my work feel free to connect me on <a target = "_blank" href= "https://www.linkedin.com/in/krishnamohanyerrabilli"> LinkedIn </a> or <a target = "_blank" href= "https://www.twitter.com/K_Mohan_">Twitter</a>, see you with another one guys.  
