@@ -2,7 +2,7 @@
 
 It's crucial to understand that Kubernetes namespaces are not the same as Linux kernel namespaces. 
 
-Kernel, Namespaces divide operating systems into virtual operating systems called containers.  
+Kernel and Namespaces divide operating systems into virtual operating systems called containers.  
 
 Kubernetes Namespaces Divide Kubernetes clusters into virtual clusters, which you might call Namespaces. 😌
 
@@ -50,12 +50,12 @@ Now let's dig into “Kubernetes Namespaces”
 
 So What is Kubernetes Namespace?
 
-With the help of a Namespace, each cluster is divided into virtual sub-clusters.
+With the help of Namespaces, each cluster is divided into virtual sub-clusters.
 
 Each team can work in a Namespace without disturbing others.
 An application and its dependencies are stored in Namespaces in a cluster.
 
-These Namespaces are logically separate from each other 
+These Namespaces are separate from each other 
 but are allowed to communicate with each other.
 
 It's Namespaces that allow projects and team members to share a cluster.
@@ -95,9 +95,8 @@ development and make the whole process much simpler.
 
 These containers are similar to virtual machines but are lighter. 
 They relax discrete features as they can be shared across multiple 
-operating systems, have their own CPU space, memory, etc., 
-and are isolated from their respective infrastructure.
-
+os, have their own CPU space, memory, etc., 
+and they are isolated from their respective infrastructure.
 
 
 ## Types of Kubernetes Namespaces
@@ -129,7 +128,8 @@ This Namespace is used for resources that should be publicly available to all us
 
 ### kube-nodelease
 
-Used to monitor the health of the node
+Used to track the health of the node
+
            - Allocated to each node(object) 
 
 ## Default Namespace
@@ -148,16 +148,16 @@ kubectl get namespaces
 This lists your current Namespaces, their status, etc.
 
 
-If you want to know the summary of a specific Namespace, you can use the following command:
+Command to get more info about a particular Namespace
 
 ```
-Get Kubectl Namespaces <name>
+Get Kubectl Namespaces 
 ```
 
-You can also get a detailed description of a specific Namespace by using the following command:
+We can also get a detailed description of a specific Namespace by using the following command:
 
 ```
-Kubectl describes the Namespace <name>
+Kubectl describes the Namespace 
 ```
 
 Description Shows resource quota (if specified) and resource range, A resource quota shows the total resources a Namespace can use, And the resource range shows the minimum or maximum resources that can be consumed.
@@ -169,19 +169,19 @@ The active Namespace is in current use, while the terminating Namespace is being
 
 ## Creating a New Namespace
 
-You can create a new Namespace in two ways:
+We can create a new Namespace in two ways:
 
 ### Imperative way
 
 ->  You can simply run the command: 
 
 ```
-kubectl create Namespace <insert-Namespace-name-here>
+kubectl create Namespace 
 ```
 
 ### Declarative way
 
--> You can also create a YAML file with the following contents: 
+We can also create a YAML file with the following contents: 
 
 Newspace.yaml:
 
@@ -199,7 +199,7 @@ name: newspace
 kubectl apply-f newspace.yaml
 ```
 
-It is easy to create a new Namespace. Just remember to not add the prefix “kube’' before a Namespace.
+It is easy to create a new Namespace.
 
 🤔 How to share a cluster with Namespaces? 
 
@@ -227,22 +227,22 @@ That's it, now all your commands only work within your  `newspace` Namespace
 How to switch back, it's so simple
 ```
 kubens default
-```
+````
 ## Deleting a Namespace
 
-It is very easy to create as well as to delete a Namespace. 
+. 
 
-Delete a Namespace by using the following command:
+Delete any particular Namespace by using this command:
 
 ```
-Kubectl delete Namespace <insert-Namespace-name-here>
+Kubectl delete Namespace 
 ```
 
-After entering this command, the Namespace will show a “Terminating” status for a while.
+After the command is executed, Namespace will pop up a “Terminating” status for a while.
 
-Now, you have an idea about how you can use Namespaces and how you can create, view, or delete Namespaces. 
+Congratulations Now, you can create, view, or delete Namespaces. 
 
-## Why Should You Use Kubernetes Namespaces? 🙂
+## Why Should You Use Kubernetes Namespaces? 
 
 it's time to understand why Kubernetes Namespaces are crucial and what are their advantages:
 
@@ -254,7 +254,7 @@ With Namespaces, it is possible to carry out the development, testing, and produ
 
 A resource quota divides the number of resources that users and teams can use.
 
-## Using multiple Namespaces 🧑‍💼
+## Using multiple Namespaces 
 
 In smaller organizations, where development, testing, and production teams work side by side, the default Namespace is sufficient. 
 
@@ -262,7 +262,7 @@ Development and testing do not require isolation and, therefore, can work with a
 
 But if the team is large or expanding day by day, multiple Namespaces will be required. 
 
-## Use-case of multiple Namespaces 👨‍💼 
+## Use-case of multiple Namespaces 
 
 Development and testing can be clustered as one team, and production can be isolated so that any changes made by development and testing do not affect production. 
 
@@ -270,5 +270,5 @@ Throughout the entire lifecycle of the application, both teams can work in their
 
 That's it for today 
 
-Thank you for reading my blog. If you like my work feel free to connect me on -> <a target = "_blank" href= "https://www.linkedin.com/in/krishnamohanyerrabilli"> LinkedIn </a> or <a target = "_blank" href= "https://www.twitter.com/K_Mohan_">Twitter</a>, see you with another one. 
+
                                                                           
