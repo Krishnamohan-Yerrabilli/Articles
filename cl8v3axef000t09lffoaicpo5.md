@@ -1,7 +1,5 @@
 ## Kubernetes: Blue/Green deployment
 
-![Untitled design (2)](https://user-images.githubusercontent.com/58173938/193967528-5f64dc54-4713-46b1-b472-fb1f275031e2.png)
-
 
 
 A blue/green deployment involves deploying the new application version (green) besides the old (blue).
