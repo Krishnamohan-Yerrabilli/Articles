@@ -1,1 +1,73 @@
-IyMgS3ViZXJuZXRlczogQmx1ZS9HcmVlbiBkZXBsb3ltZW50CgoKCkEgYmx1ZS9ncmVlbiBkZXBsb3ltZW50IGludm9sdmVzIGRlcGxveWluZyB0aGUgbmV3IGFwcGxpY2F0aW9uIHZlcnNpb24gKGdyZWVuKSBiZXNpZGVzIHRoZSBvbGQgKGJsdWUpLgoKQSBsb2FkIGJhbGFuY2VyIGluIHRoZSBmb3JtIG9mIGEgU2VydmljZSBTZWxlY3RvciBvYmplY3QgaXMgdXNlZCB0byB0ZXN0IGFuZCByZWRpcmVjdCB0cmFmZmljIHRvCnRoZSBuZXcgYXBwbGljYXRpb24gKGdyZWVuKSBpbnN0ZWFkIG9mIHRoZSBvbGQgb25lIHdoZW4gdmVyaWZpZWQuCgpCbHVlL0dyZWVuIGRlcGxveW1lbnRzIGNhbiBwcm92ZSBjb3N0bHkgZHVlIHRvIHRoZSBuZWVkIHRvIHN1c3RhaW4gdHdpY2UgdGhlCmFtb3VudCBvZiBhcHBsaWNhdGlvbiByZXNvdXJjZXMgZm9yIHRoZSBkdXJhdGlvbiBvZiB0aGUgZGVwbG95bWVudC4KClRvIHN0YXJ0IHRoaXMsIHdlIHNldCB1cCBhIHNlcnZpY2UgdGhhdCBzaXRzIGluIGZyb250IG9mIGRlcGxveW1lbnRzLgoKRm9yIGV4YW1wbGUsIHRoZSBzZXJ2aWNlIHNlbGVjdG9yIHNlY3Rpb24gb2YgdGhlIG1hbmlmZXN0IGZpbGUgZm9yIGEgYmx1ZSBkZXBsb3ltZW50IApmb3IgYW4gYXBwIGNhbGxlZCB3ZWItYXBwIHdpdGggdjEuMC4wIGxvb2tzIGxpa2UgdGhpczoKCmBgYApUeXBlOiBTZXJ2aWNlCk1ldGFkYXRhOgogTmFtZTogd2ViLWFwcC0wMQogTGFiZWxzOgogICBBcHA6IFdlYi1hcHAKU2VsZWN0b3I6CiAgIEFwcDogV2ViLWFwcAogICBWZXJzaW9uOiB2MS4wLjAKCmBgYAoKQW5kIHRoZSBkZXBsb3ltZW50IGZvciBCbHVlIFdlYiBBcHA6CgpgYGAKVHlwZTogRXhwYW5zaW9uCk1ldGFkYXRhOgogIE5hbWU6IHdlYi1hcHAtMDEKU3BlY2lmaWNhdGlvbjoKICBUZW1wbGF0ZToKICAgICAgICBNZXRhZGF0YToKICAgICAgICAgICBMYWJlbHM6CiAgICAgICAgICAgICBBcHA6IFdlYi1hcHAKICAgICAgICAgICAgIFZlcnNpb246ICJ2MS4wLjAiCmBgYAoKV2hlbiB3ZSB3YW50IHRvIHJlZGlyZWN0IHRyYWZmaWMgdG8gdGhlIG5ldyAoZ3JlZW4pIHZlcnNpb24gb2YgdGhlIGFwcCwgCgp3ZSB1cGRhdGUgdGhlIGRlcGxveW1lbnQgZmlsZSB0byBwb2ludCB0byB0aGUgbmV3IHZlcnNpb24gdjIuMC4wLgoKYGBgClR5cGU6IFNlcnZpY2UKTWV0YWRhdGE6CiBOYW1lOiB3ZWItYXBwLTAyCiBMYWJlbHM6CiAgIEFwcDogV2ViLWFwcApTZWxlY3RvcjoKICAgQXBwOiBXZWItYXBwCiAgIFZlcnNpb246IHYyLjAuMApgYGAKCkV4cGFuc2lvbiBmb3IgR3JlZW4gQXBwOgoKYGBgClR5cGU6IEV4cGFuc2lvbgpNZXRhZGF0YToKICBOYW1lOiB3ZWItYXBwLTAyClNwZWNpZmljYXRpb246CiAgVGVtcGxhdGU6CiAgICAgICAgTWV0YWRhdGE6CiAgICAgICAgICAgTGFiZWxzOgogICAgICAgICAgICAgQXBwOiBXZWItYXBwCiAgICAgICAgICAgICBWZXJzaW9uOiAidjIuMC4wIgpgYGAKClRoYW5rIHlvdSBmb3IgcmVhZGluZyBteSBibG9nLiBJZiB5b3UgbGlrZSBteSB3b3JrIGZlZWwgZnJlZSB0byBjb25uZWN0IG1lIG9uIDxhIHRhcmdldCA9ICJfYmxhbmsiIGhyZWY9ICJodHRwczovL3d3dy5saW5rZWRpbi5jb20vaW4va3Jpc2huYW1vaGFueWVycmFiaWxsaSI+IExpbmtlZEluIDwvYT4gb3IgPGEgdGFyZ2V0ID0gIl9ibGFuayIgaHJlZj0gImh0dHBzOi8vd3d3LnR3aXR0ZXIuY29tL0tfTW9oYW5fIj5Ud2l0dGVyPC9hPiwgc2VlIHlvdSB3aXRoIGFub3RoZXIgb25lIGd1eXMuICAK
+# Kubernetes: Blue/Green deployment
+
+
+
+A blue/green deployment involves deploying the new application version (green) besides the old (blue).
+
+A load balancer in the form of a Service Selector object is used to test and redirect traffic to
+the new application (green) instead of the old one when verified.
+
+Blue/Green deployments can prove costly due to the need to sustain twice the
+amount of application resources for the duration of the deployment.
+
+To start this, we set up a service that sits in front of deployments.
+
+For example, the service selector section of the manifest file for a blue deployment 
+for an app called web-app with v1.0.0 looks like this:
+
+```
+Type: Service
+Metadata:
+ Name: web-app-01
+ Labels:
+   App: Web-app
+Selector:
+   App: Web-app
+   Version: v1.0.0
+
+```
+
+And the deployment for Blue Web App:
+
+```
+Type: Expansion
+Metadata:
+  Name: web-app-01
+Specification:
+  Template:
+        Metadata:
+           Labels:
+             App: Web-app
+             Version: "v1.0.0"
+```
+
+When we want to redirect traffic to the new (green) version of the app, 
+
+we update the deployment file to point to the new version v2.0.0.
+
+```
+Type: Service
+Metadata:
+ Name: web-app-02
+ Labels:
+   App: Web-app
+Selector:
+   App: Web-app
+   Version: v2.0.0
+```
+
+Expansion for Green App:
+
+```
+Type: Expansion
+Metadata:
+  Name: web-app-02
+Specification:
+  Template:
+        Metadata:
+           Labels:
+             App: Web-app
+             Version: "v2.0.0"
+```
+
+Thank you for reading my blog. If you like my work feel free to connect me on <a target = "_blank" href= "https://www.linkedin.com/in/krishnamohanyerrabilli"> LinkedIn </a> or <a target = "_blank" href= "https://www.twitter.com/K_Mohan_">Twitter</a>, see you with another one guys.  
