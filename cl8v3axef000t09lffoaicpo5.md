@@ -16,9 +16,9 @@ For example, the service selector section of the manifest file for a blue deploy
 for an app called web-app with v1.0.0 looks like this:
 
 ```
-Type: Service
+Type: Service (#This is same as kind)
 Metadata:
- Name: web-app-01
+ Name: web-app-01 
  Labels:
    App: Web-app
 Selector:
