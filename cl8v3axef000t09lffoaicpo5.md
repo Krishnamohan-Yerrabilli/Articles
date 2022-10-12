@@ -18,9 +18,9 @@ for an app called web-app with v1.0.0 looks like this:
 ```
 Type: Service (#This is same as kind)
 Metadata:
- Name: web-app-01 
+ Name: web-app-01 (#service name)
  Labels:
-   App: Web-app
+   App: Web-app 
 Selector:
    App: Web-app
    Version: v1.0.0
