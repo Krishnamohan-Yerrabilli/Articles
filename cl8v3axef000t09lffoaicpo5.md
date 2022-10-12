@@ -22,7 +22,7 @@ Metadata:
  Labels:
    App: Web-app (#This are simply tags attached to the service, it helps to recognize the service)
 Selector:
-   App: Web-app (#This are the selected pod labels, this is how service can find what are the pods it wants to manage)
+   App: Web-app 
    Version: v1.0.0
 
 ```
