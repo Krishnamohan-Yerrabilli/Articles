@@ -110,30 +110,30 @@ While writing this blog (Oct 3/ 2022) Kubernetes has four Namespaces, <br>this m
 
 it has a default Namespace for objects that have no other Namespace.
 
-      - Pod
-      - Services      
-      - Deployment...
+- Pod
+- Services      
+- Deployment...
       
 ### kube-system
 
 Namespace for Kubernetes system-derived objects.
 
-          - Kube-DNS
-          - Holds master process
-          - kubectl process
+- Kube-DNS
+- Holds master process
+- kubectl process
 
 ### kube-public
 
 This Namespace is used for resources that should be publicly available<br> to all users.
 
-          - cluster-info
-          - ConfigMap
+ - Cluster-info
+ - ConfigMap
 
 ### kube-nodelease
 
 Used to track the health of the node
 
-           - Allocated to each node(object) 
+- Allocated to each node(object) 
 
 ## Default Namespace
 
