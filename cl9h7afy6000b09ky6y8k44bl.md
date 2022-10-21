@@ -289,10 +289,8 @@ affect production.
 
 Throughout the entire lifecycle of the application, both teams can work in <br>
 their respective Namespaces.
+<br>
 
-That's it for today 
-
-
-Thank you for reading my blog. If you like my work feel free to connect -> <a target = "_blank" href= "https://www.linkedin.com/in/krishnamohanyerrabilli"> LinkedIn </a> or <a target = "_blank" href= "https://www.twitter.com/K_Mohan_">Twitter</a>, see you with another one guys.  
+Thank you for reading my blog. If you like my work feel free to connect me on <a target = "_blank" href= "https://www.linkedin.com/in/krishnamohanyerrabilli"> LinkedIn </a> or <a target = "_blank" href= "https://www.twitter.com/K_Mohan_">Twitter</a>, see you with another one guys.  
 
                                                                           
