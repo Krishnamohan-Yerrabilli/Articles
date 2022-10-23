@@ -31,15 +31,14 @@ machines on which the clusters run.
 
 ### Orchestration 
 
-Ever seen an orchestra? The orchestra conductor decides what 
+Ever seen an orchestra? The orchestra conductor decides what <br>
 sound he wants, how many violins, how many trumpets, what octave 
 and everything else. 
 
-Similarly, orchestration determines which container to use, 
+Similarly, orchestration determines which container to use <br>
 which resources to use, which application to run, etc.
 
 [Kubernetes](https://kubernetes.io/) comes from the Greek word meaning
- <br>
 sailing master or pilot. Simply put, it means a person who <br>
 has substantial control over operations. 
 
@@ -55,23 +54,23 @@ So What is Kubernetes Namespace?
 
 With the help of Namespaces, each cluster is divided into virtual sub-clusters.
 
-Each team can work in a Namespace without disturbing others.
+Each team can work in a Namespace without disturbing others.<br>
 An application and its dependencies are stored in Namespaces in a cluster.
 
-These Namespaces are separate from each other 
-but are allowed to communicate with each other.
+These Namespaces are separate from each other but are allowed to communicate <br>
+with each other.
 
 It's Namespaces that allow projects and team members to share a cluster.
 
-Let us understand this by comparing how things have changed 
+Let us understand this by comparing how things have changed <br>
 and how these technologies are evolving
 
 The process by which application development takes place.
 
-Earlier resource allocation was a problem. An application consumes a 
+Earlier resource allocation was a problem. An application consumes a <br>
 a lot of resources
 
-This causes other applications to underperform. Organizations cannot 
+This causes other applications to underperform. Organizations cannot <br>
 afford to deploy multiple physical servers.
 
 ## 🖧 Virtualization and Containers  
@@ -79,32 +78,33 @@ afford to deploy multiple physical servers.
 
 ![vm image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1664821569769/HBV1pvqwa.png align="center")
 
-This is where the concept of virtualization came into the picture and 
+This is where the concept of virtualization came into the picture and <br>
 provided a viable solution to the above problem.
 
-With the help of virtualization software, it is possible to run multiple 
+With the help of virtualization software, it is possible to run multiple <br>
 virtual machines on a single CPU.
 
-This has saved organizations from the additional costs of purchasing 
+This has saved organizations from the additional costs of purchasing <br>
 and maintaining additional hardware.
 
-Virtualization also provides scalability as resources can be added 
+Virtualization also provides scalability as resources can be added <br>
 or removed at any time without disturbing other VMs. 
 
 It also demonstrated improved security as the VM was not accessed by other VMs.
 
-This is the age of Kubernetes, where containers simplify application 
+This is the age of Kubernetes, where containers simplify application <br>
 development and make the whole process much simpler.
 
-These containers are similar to virtual machines but are lighter. 
-They relax discrete features as they can be shared across multiple 
-os, have their own CPU space, memory, etc., 
+These containers are similar to virtual machines but are lighter. <br>
+They relax discrete features as they can be shared across multiple <br>
+os, have their own CPU space, memory, etc., <br>
 and they are isolated from their respective infrastructure.
 
 
 ## Types of Kubernetes Namespaces
 
-While writing this blog (Oct 3/ 2022) Kubernetes has four Namespaces, <br>this may change in future
+While writing this blog (Oct 3/ 2022) Kubernetes has four Namespaces, <br>
+this may change in future
 
 ### default
 
@@ -124,7 +124,8 @@ Namespace for Kubernetes system-derived objects.
 
 ### kube-public
 
-This Namespace is used for resources that should be publicly available<br> to all users.
+This Namespace is used for resources that should be publicly available<br> 
+to all users.
 
  - Cluster-info
  - ConfigMap
@@ -157,7 +158,8 @@ Command to get more info about a particular Namespace
 Get Kubectl Namespaces 
 ```
 
-We can also get a detailed description of a specific Namespace by using <br>the following command:
+We can also get a detailed description of a specific Namespace by using <br>
+the following command:
 
 ```
 Kubectl describes the Namespace 
@@ -213,11 +215,11 @@ It is easy to create a new Namespace.
 A Namespace allows teams to share a Kubernetes cluster
 it allows you to create Virtual cluster's inside the existing [cluster](https://kubernetes.io/docs/concepts/architecture/)
 
-Although your current environment is not changed to your new namespace 
+Although your current environment is not changed to your new namespace <br>
 it's time-consuming and also not efficient to type --namespace with<br> 
 kubectl command always
 
-Let's see a simple hack, how you can switch your current default Namespace 
+Let's see a simple hack, how you can switch your current default Namespace <br>
 to your preferred Namespace
 
 ## Hack to switch between Namespaces
