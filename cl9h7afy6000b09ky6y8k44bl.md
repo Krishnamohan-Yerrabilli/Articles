@@ -39,8 +39,7 @@ Similarly, orchestration determines which container to use <br>
 which resources to use, which application to run, etc.
 
 [Kubernetes](https://kubernetes.io/) comes from the Greek word meaning
-sailing master or pilot. Simply put, it means a person who <br>
-has substantial control over operations. 
+sailing master or pilot. Simply put<br> it means a person who has substantial control over operations. 
 
 This is what Kubernetes does. 
 
@@ -95,10 +94,10 @@ It also demonstrated improved security as the VM was not accessed by other VMs.
 This is the age of Kubernetes, where containers simplify application <br>
 development and make the whole process much simpler.
 
-These containers are similar to virtual machines but are lighter. <br>
-They relax discrete features as they can be shared across multiple <br>
-os, have their own CPU space, memory, etc., <br>
-and they are isolated from their respective infrastructure.
+These containers are similar to virtual machines but are lighter. They relax <br>
+discrete features as they can be shared across multiple os, have <br>
+their own CPU space, memory, etc., and they are isolated <br>
+from their respective infrastructure.
 
 
 ## Types of Kubernetes Namespaces
@@ -138,8 +137,8 @@ Used to track the health of the node
 
 ## Default Namespace
 
-This is a Namespace automatically created by Kubernetes.
-This Namespace includes pods, services, and deployment
+This is a Namespace automatically created by Kubernetes. <br>
+This Namespace includes pods, services, and deployment <br>
 Can be accessed by every user (even unauthenticated ones).
 
 ## Viewing Namespaces
@@ -166,14 +165,15 @@ Kubectl describes the Namespace
 ```
 
 Description Shows resource quota (if specified) and resource range, A <br>
-resource quota shows the total resources a Namespace can use, <br>
-And the resource range shows the minimum or maximum resources that can be consumed.
+resource quota shows the total resources a Namespace can use <br>
+And the resource range shows the minimum or maximum <br>
+resources that can be consumed.
 
-It also shows whether the Namespace is active or terminating. These are <br>
-the two designations of any Namespace. 
+It also shows whether the Namespace is active or terminating. <br>
+These are the two designations of any Namespace. 
 
-The active Namespace is in current use, while the terminating Namespace<br> 
-is being dropped and is no longer in use.
+The active Namespace is in current use, while the terminating <br>
+Namespace is being dropped and is no longer in use.
 
 
 ## Creating a New Namespace
@@ -212,8 +212,8 @@ It is easy to create a new Namespace.
 
 🤔 How to share a cluster with Namespaces? 
 
-A Namespace allows teams to share a Kubernetes cluster
-it allows you to create Virtual cluster's inside the existing [cluster](https://kubernetes.io/docs/concepts/architecture/)
+A Namespace allows teams to share a Kubernetes cluster, it allows you to 
+create Virtual cluster's inside the existing [cluster](https://kubernetes.io/docs/concepts/architecture/)
 
 Although your current environment is not changed to your new namespace <br>
 it's time-consuming and also not efficient to type --namespace with<br> 
@@ -286,8 +286,8 @@ will be required.
 ## Use-case of multiple Namespaces 
 
 Development and testing can be clustered as one team, and production <br>
-can be isolated so that any changes made by development and testing do not <br>
-affect production. 
+can be isolated so that any changes made by development and <br>
+testing do not affect production. 
 
 Throughout the entire lifecycle of the application, both teams can work in <br>
 their respective Namespaces.
