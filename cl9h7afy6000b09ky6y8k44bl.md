@@ -72,7 +72,7 @@ a lot of resources
 This causes other applications to underperform. Organizations cannot <br>
 afford to deploy multiple physical servers.
 
-## 🖧 Virtualization and Containers  
+## Virtualization and Containers  
 
 
 ![vm image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1664821569769/HBV1pvqwa.png align="center")
@@ -210,7 +210,7 @@ kubectl apply-f newspace.yaml
 
 It is easy to create a new Namespace.
 
-🤔 How to share a cluster with Namespaces? 
+How to share a cluster with Namespaces? 
 
 A Namespace allows teams to share a Kubernetes cluster, it allows you to 
 create Virtual cluster's inside the existing [cluster](https://kubernetes.io/docs/concepts/architecture/)
