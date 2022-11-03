@@ -1,4 +1,4 @@
-## All you need to know about Amazon Route 53
+# All you need to know about Amazon Route 53
 
 ### Route 53
 
@@ -10,7 +10,7 @@ convert into numerical IP address example: "10.72.171.77" and route to the alloc
 host(EC2) via ELB.
 
 Amazon launched this service in 2010, it supports services that are tightly integrated
-with aws, to understand better we need to understand some concepts behind it, below
+with AWS, to understand better we need to understand some concepts behind it, below
 I explained some of the terminologies.
 
 ### Cloud Terminologies 
@@ -28,9 +28,9 @@ resources from the customer, these regions are combined with AZ's
 ![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1657164328216/MYyE8DAjO.png align="center")
 
 These are called Availability zones which are concise in a particular region, these
-zones purpose is to store applications data, multiple AZ's are helpful because they
+zones' purpose is to store applications data, multiple AZs are helpful because they
 can protect our application data from disaster recovery, fault tolerance, single point
-failure, etc, etc...,  
+failure, etc...
 
 Availability zones have a count of a minimum of 3 in a region and a maximum of 6 in a Region
 
@@ -56,7 +56,7 @@ Objects are simply types of data you store, in S3 everything refers to objects,
 and S3 is a global service, but you want to create these services region-based. 
 
 Bucket names must be unique, because of their usage, and to identify easily, each
-bucket name assigned to individual aws customers.
+bucket name assigned to individual AWS customers.
 
 #### Elastic Load Balancer
 
@@ -72,7 +72,7 @@ These requests are equally divided among multiple instances.
 
 #### CloudFront
 
-For info please go through the below article, I clearly explained what is CloudFront.
+For info please go through the below article, I clearly explained what CloudFront is.
 
 %[https://krishnamohanse.hashnode.dev/what-is-amazon-cloudfront-and-how-does-it-work-hands-on]
 
@@ -123,8 +123,8 @@ This works on how fastly the user gets the response back from the resource, it i
 #### Failover Routing Policy
 
 When the request is going to the primary instance, in case of primary instance may fall
-it happens in many cases in that case it considers a break(fall) of an instance, then this
-the request is forward to a healthy
+it happens in many cases, in that case, it considers a break(fall) of an instance, then this
+the request is forwarded to a healthy
 instance
 
 ![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1657171413598/Cjqdc5oyC.png align="center")
@@ -134,7 +134,7 @@ instance
 #### Traffic Flow
 
 It is an editor where an AWS customer can visualize how the data passes from user to
- the endpoint it is a feature offered by Route-53
+ the endpoint is a feature offered by Route-53
 
 We can easily switch back through different policy rules (retrieve back to the previous
  policy) and it has 4 types of rules which are 
@@ -154,9 +154,9 @@ are passed like fail-over or any other reason, which leads to an un-requested re
 
 This is one of the most foundational concepts in Route53, It maps the request to a specific 
 resource while serving the request which resource it wants to go through an example: S3, 
-Cloudfront, DB etc, etc..,
+Cloudfront, DB, etc...
 
-### How It works?
+### How Does It works?
 
 ![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1657167460210/4BA4Vq-ta.png align="center")
 
@@ -164,19 +164,19 @@ To perform the job, obviously, it wants to go through a series of steps, this ha
  a user request access to a web server through Route 53
 
 - The user access an address through route 53 that is managed by the host machine here
- address is nothing but a website address (www.google.com)
+ the address is nothing but a website address (www.google.com)
 
-- Next step is managed by the user ISP or any local network, the user receives the request
- DNS resolver by Route 53, and the request is forwarded to the root server (consider the 
+- Next step is managed by the user's ISP or any local network, the user receives the request
+ DNS resolver by Route 53 and the request is forwarded to the root server (consider the 
 the backbone of the internet).
 
-- Then the request is forward to the TLD aka Top-level-domain by the DNS resolver
+- Then the request is forwarded to the TLD aka Top-level-domain by the DNS resolver
 
 - The DNS resolver acquires the info from authorized Route 53 4 name servers(translates
- the domain name into IP address) which helps to find the requested host, and which 
+ the domain name into the IP address) which helps to find the requested host, and which 
  resources it wants to be forwarded. 
 
-- It selects one of the four authorized name servers and requests the resource that we need.
+- It selects one of the four authorized name servers and requests the resource we need.
 
 - This request is acquired by route 53, and sent a request to the DNS, to find the relevant
 web-page resources that are requested by Route 53, after it successfully finds out its hands
