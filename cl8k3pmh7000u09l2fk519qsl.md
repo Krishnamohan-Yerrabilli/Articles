@@ -12,7 +12,7 @@ A Replicaset simply means, it replicates pods, like you can have an n number of 
 important concept called labels, let's see in detail what it is all about and explore 
 what exactly replicaset means, and its use cases...
 
-### which problem it solves?
+### Which problem it solves?
 
 It automatically replicates and it makes sure a certain number of pods run all the 
 time as you mentioned in your manifest file.
@@ -176,7 +176,7 @@ taken as a reference by replicaset to check the pod == (template.metadata.labels
 are created by the replica set, when pods are made this is taken as reference by 
 the replica set to create new pods 
 
-> don't think replicaset means just creating replicas, that's not the main view, it 
+> Don't think replicaset means just creating replicas, that's not the main view, it 
 replicates or re-create pods if anyone one of them dies, but how replicaset is identifying
  its designated pods
 
